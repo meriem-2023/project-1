@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding:24px 0px 24px 36px;
+    background-color:#18171c;
+    height:120vh;
+    width:30%;
+}
+.nav .logo{
+  padding:0px 0px 48px 0px;
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav .logo .napstericon{
+ font-size: 16px;
+ color:#ffffff;
+ padding:0px 8px 0px 0px;
+}
+.MENU ul{
+    list-style-type: none;
+    padding:0px 0px 24px 0px ;
+}
+.MENU ul li{
+    padding:0px 0px 20px 0px;
+    color:#32323b;
+    font-size: 14px;
+}
+.MENU ul li .menuicon{
+    font-size: 10px;
+    padding:0px 8px 0px 0px;
+}
+.MENU ul li span{
+    font-size: 14px;
+    color:#ffffff;
+    border-right: #8533ff;
+}
+.MENU ul li span:hover{
+    color:#5973fc;
+}
+.nav .card{
+    display: flex;
+    flex-direction: column;
+}
+.card-home{
+    background-color: #32323b;
+    padding:8px 8px;
+    width:fit-content;
+}
+.card .card-home{
+    display: flex;
+    flex-direction: row;
+}
+.card .card-home  .microicon{
+   font-size: 20px;
+   background-color: #ffffff;
+   padding:8px 8px;
+   border:2px solid #fff;
+   border-radius:8px;
+}
+.card-home h5{
+    color:#fff;
+    padding:4px 0px 0px 8px ;
+}
+.card-play{
+    padding:0px 0px 0px 4px;
+
+}
+.card-play .wifiicon{
+    font-size: 10px;
+}
+.card-play span{
+    font-size:12px;
+    padding:4px 0px 0px 8px;
+    color:#ffffff;
+}
